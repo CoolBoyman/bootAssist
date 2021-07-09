@@ -3,6 +3,7 @@ from src.MainWindows import MainWindows
 import sys
 
 if __name__ == "__main__":
+    # test
     app = QApplication(sys.argv)
     loginWin = MainWindows()
     loginWin.ui.show()
